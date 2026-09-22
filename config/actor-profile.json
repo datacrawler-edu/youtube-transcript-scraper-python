@@ -1,0 +1,149 @@
+{
+  "repository": {
+    "name": "youtube-transcript-scraper-python",
+    "description": "Python, JavaScript and cURL examples for extracting complete timestamped YouTube transcripts in 47 languages through Apify.",
+    "homepage": "https://apify.com/datascraperes/youtube-transcript-scraper?fpr=edudata",
+    "language": "Python",
+    "license": "MIT"
+  },
+  "actor": {
+    "displayName": "YouTube Transcript Extractor - Timestamps",
+    "id": "datascraperes/youtube-transcript-scraper",
+    "storeUrl": "https://apify.com/datascraperes/youtube-transcript-scraper",
+    "apiBaseUrl": "https://api.apify.com/v2/acts/datascraperes~youtube-transcript-scraper",
+    "description": "Extract complete, timestamped transcripts from up to 5,000 public YouTube videos in 47 selectable languages. Get one structured Dataset item per video with title, language, segment timings, and explicit error status for AI, RAG, SEO, and research workflows."
+  },
+  "affiliate": {
+    "enabled": true,
+    "parameter": "fpr=edudata",
+    "actorUrl": "https://apify.com/datascraperes/youtube-transcript-scraper?fpr=edudata",
+    "pricingUrl": "https://apify.com/pricing?fpr=edudata"
+  },
+  "platform": {
+    "apifyFreePlan": {
+      "monthlyPrepaidUsage": "$5",
+      "renewsMonthly": true,
+      "noCreditCardRequired": true,
+      "unusedCreditsExpire": true,
+      "sourceUrl": "https://apify.com/pricing?fpr=edudata"
+    }
+  },
+  "interfaces": {
+    "web": {
+      "enabled": true,
+      "inputTab": "Input",
+      "outputTab": "Dataset",
+      "runAction": "Start",
+      "primaryInput": "videoUrls",
+      "inputLabel": "YouTube video URLs",
+      "inputSummary": "Enter one or more public YouTube video URLs and choose the transcript language from the validated dropdown.",
+      "exportFormats": [
+        "JSON",
+        "CSV",
+        "Excel"
+      ]
+    },
+    "api": {
+      "enabled": true,
+      "examples": [
+        "cURL",
+        "Python",
+        "JavaScript"
+      ]
+    }
+  },
+  "seo": {
+    "primaryKeyword": "YouTube transcript scraper",
+    "secondaryKeywords": [
+      "timestamped YouTube transcripts",
+      "YouTube captions JSON",
+      "bulk YouTube transcript extraction",
+      "YouTube transcript API Python"
+    ],
+    "topics": [
+      "youtube-transcript",
+      "youtube",
+      "captions",
+      "apify",
+      "python",
+      "javascript",
+      "web-scraping",
+      "timestamped-transcripts",
+      "json"
+    ],
+    "longTailIntents": [
+      "How to extract complete timestamped transcripts from public YouTube videos",
+      "How to export YouTube captions as structured JSON with Python",
+      "How to process up to 5,000 YouTube transcript URLs through an Apify Dataset"
+    ]
+  },
+  "content": {
+    "readmeSectionOrder": [
+      "What this repository helps you do",
+      "Example result",
+      "Run without code",
+      "Try it with Apify's free plan",
+      "Quick start for developers",
+      "Input example",
+      "Request examples",
+      "Output fields",
+      "Common use cases",
+      "Long-tail use-case sections",
+      "FAQ",
+      "Limits and pricing",
+      "Hosted version",
+      "Responsible use",
+      "Support"
+    ],
+    "exampleFiles": [
+      "examples/python/youtube_transcript.py",
+      "examples/python/batch_youtube_transcripts.py",
+      "examples/python/export_youtube_transcripts.py"
+    ],
+    "faqFile": "docs/faq.md"
+  },
+  "pricing": {
+    "summary": "The Actor charges one event only for each complete successful transcript delivered to the Dataset; the active account tier determines the exact per-transcript price.",
+    "unit": "one complete successful transcript",
+    "price": "$0.00075-$0.001 per complete transcript, depending on Apify account tier"
+  },
+  "distribution": {
+    "githubUrl": "https://github.com/datacrawler-edu/youtube-transcript-scraper-python",
+    "actorToGithubUrl": "https://github.com/datacrawler-edu/youtube-transcript-scraper-python",
+    "githubToActorUrl": "https://apify.com/datascraperes/youtube-transcript-scraper?fpr=edudata",
+    "organizationHubUrl": "https://github.com/datacrawler-edu",
+    "firstRelease": {
+      "tag": "v0.1.0",
+      "title": "Initial public examples"
+    }
+  },
+  "examples": {
+    "inputFile": "data/sample-input.json",
+    "outputFile": "data/sample-output.json",
+    "csvFile": "data/sample-output.csv"
+  },
+  "measurement": {
+    "observationWindowDays": 30,
+    "githubSignals": [
+      "views",
+      "uniqueVisitors",
+      "clones",
+      "referrers",
+      "popularContent"
+    ],
+    "apifySignals": [
+      "users",
+      "runs",
+      "datasetItems",
+      "revenue"
+    ],
+    "searchChecks": [
+      "site:github.com/datacrawler-edu/youtube-transcript-scraper-python",
+      "YouTube transcript scraper timestamped JSON"
+    ]
+  },
+  "support": {
+    "issuesUrl": "https://github.com/datacrawler-edu/youtube-transcript-scraper-python/issues",
+    "actorSupportUrl": "https://apify.com/datascraperes/youtube-transcript-scraper?fpr=edudata"
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "videoId": "jNQXAC9IVRw",
+    "videoUrl": "https://www.youtube.com/watch?v=jNQXAC9IVRw",
+    "status": "success",
+    "title": "Me at the zoo",
+    "languageRequested": "en",
+    "segmentCount": 3,
+    "segments": [
+      {
+        "start": 1.0,
+        "duration": 6.0,
+        "text": "All right, so here we are, in front of the elephants the cool thing about these guys is that they have really..."
+      },
+      {
+        "start": 7.0,
+        "duration": 9.0,
+        "text": "really really long trunks and that's cool (baaaaaaaaaaahhh!!)"
+      },
+      {
+        "start": 16.0,
+        "duration": 0.0,
+        "text": "and that's pretty much all there is to say"
+      }
+    ],
+    "errorCode": null,
+    "errorMessage": null
+  }
+]
