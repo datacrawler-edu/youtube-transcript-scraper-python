@@ -170,12 +170,12 @@ The active tiered prices are:
 
 | Apify tier | Price per complete transcript | Equivalent per 1,000 transcripts |
 | --- | ---: | ---: |
-| Free | $0.001000 | $1.00 |
-| Bronze | $0.000900 | $0.90 |
-| Silver | $0.000800 | $0.80 |
-| Gold | $0.000750 | $0.75 |
-| Platinum | $0.000750 | $0.75 |
-| Diamond | $0.000750 | $0.75 |
+| Free | $0.003000 | $3.00 |
+| Bronze | $0.002700 | $2.70 |
+| Silver | $0.002400 | $2.40 |
+| Gold | $0.002250 | $2.25 |
+| Platinum | $0.002250 | $2.25 |
+| Diamond | $0.002250 | $2.25 |
 
 Apify resolves the applicable account tier. Compute, storage and proxy costs are separate platform costs. Verify the current pricing on [Apify](https://apify.com/datascraperes/youtube-transcript-scraper?fpr=edudata) before sending a large batch.
 

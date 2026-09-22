@@ -105,7 +105,7 @@
   "pricing": {
     "summary": "The Actor charges one event only for each complete successful transcript delivered to the Dataset; the active account tier determines the exact per-transcript price.",
     "unit": "one complete successful transcript",
-    "price": "$0.00075-$0.001 per complete transcript, depending on Apify account tier"
+    "price": "$0.00225-$0.003 per complete transcript, depending on Apify account tier"
   },
   "distribution": {
     "githubUrl": "https://github.com/datacrawler-edu/youtube-transcript-scraper-python",
